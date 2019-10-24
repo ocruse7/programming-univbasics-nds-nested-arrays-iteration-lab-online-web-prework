@@ -47,7 +47,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  total
+  total = 0
   
   src.length.times do |index|
     if (src[index][0] % 2) = 0 && (src[index][1] % 2) = 0
