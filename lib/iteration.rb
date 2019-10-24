@@ -12,13 +12,22 @@ def join_ingredients(src)
   src.length.times do |index|
     joined_ingredients[index] = "I love #{src[index][0]} and #{src[index][1]} on my pizza"
   end
+  
   joined_ingredients
+
 end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
+  
+  larger_nums = []
+  
+  src.length.times do |index|
+    
+  
+  
 end
 
 def total_even_pairs(src)
