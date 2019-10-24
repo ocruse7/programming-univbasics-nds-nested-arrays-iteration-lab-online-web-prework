@@ -32,7 +32,6 @@ def find_greater_pair(src)
     #else
     #  larger_nums[index] = nil
     #end
-    larger_nums[index] = 1
   end
   
   larger_nums
