@@ -25,13 +25,14 @@ def find_greater_pair(src)
   larger_nums = []
   
   src.length.times do |index|
-    if src[index][0] > src[index][1]
-      larger_nums[index] = src[index][0]
-    else if src[index][1] > src[index][0]
-      larger_nums[index] = src[index][1]
-    else
-      larger_nums[index] = nil
-    end
+    #if src[index][0] > src[index][1]
+      #larger_nums[index] = src[index][0]
+   # else if src[index][1] > src[index][0]
+    #  larger_nums[index] = src[index][1]
+    #else
+    #  larger_nums[index] = nil
+    #end
+    larger_nums[index] = 1
   end
   
   larger_nums
