@@ -27,7 +27,7 @@ def find_greater_pair(src)
   src.length.times do |index|
     if src[index][0] > src[index][1]
       larger_nums[index] = src[index][0]
-    elif src[index][1] > src[index][0]
+    elsif src[index][1] > src[index][0]
       larger_nums[index] = src[index][1]
     else
      larger_nums[index] = src[index][0]
